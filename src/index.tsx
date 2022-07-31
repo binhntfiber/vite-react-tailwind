@@ -1,4 +1,5 @@
-import 'tailwindcss/tailwind.css'
+import 'virtual:windi.css'
+
 import App from './App'
 import GlobalStyle from './style/Global'
 import { store } from './store'

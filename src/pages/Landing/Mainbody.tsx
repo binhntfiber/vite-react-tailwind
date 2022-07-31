@@ -44,9 +44,9 @@ const Mainbody: React.FC = () => {
         }}
       >
         <SupportChain>Supported Chains</SupportChain>
-        <OneRow style={{ flexWrap: 'wrap', justifyContent: 'center' }}>
+        <div className="flex flex-wrap items-center justify-center">
           {networks}
-        </OneRow>
+        </div>
       </Box>
       <Contactbar>
         <ReachOutText>
